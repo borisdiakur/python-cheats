@@ -1,0 +1,6 @@
+print(1 or True)
+print(0 or True)
+print(0 and True)
+print(1 and True)
+print(not 0)
+print(not 1)
