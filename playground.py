@@ -1,6 +1,8 @@
-def my_print(b):
-    print(str(b))
+def f(x, l=[]):
+    l += [x]
+    return l
 
 
-a = "So sieht ein Backslash aus: \\"
-print(a)
+print(f(42))
+print(f(3, [1, 2]))
+print(f(43))
