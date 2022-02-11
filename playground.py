@@ -1,8 +1,6 @@
-def f(x, l=[]):
-    l += [x]
-    return l
+di = {'a': 123, 'b': 567, 'c': 345}
 
+for key in di:
+    print(key, di[key])
 
-print(f(42))
-print(f(3, [1, 2]))
-print(f(43))
+print(di.get('a'))
