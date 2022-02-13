@@ -1,11 +1,10 @@
 dynamic_key = 'yolo'
 cat = {'name': 'Mochi', 'legs': 4, dynamic_key: 'CHACKA!'}
 
-print(cat[dynamic_key])
+print(cat.get(dynamic_key))
+print(cat.get('name'))
+print(cat.get('yolo'))
 
-for key in cat:
-    print(key, cat[key])
-
-print(*cat)  # name legs yolo
-
-print(cat.get('does_not_exist'))  # -> None
+keys = [*cat]
+vals = [cat[key] for key in cat]
+print(keys, vals)
