@@ -3,8 +3,8 @@ def yolo(name, *args, **darks):
     for a in args:
         print(a)
 
-    for key in darks:
-        print(darks[key])
+    if 'bla' in darks:
+        print(darks['bla'])
 
 
 yolo('Mochi', 'Kimchi', 'Naonao', bla='Chichi')

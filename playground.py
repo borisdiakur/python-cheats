@@ -1,1 +1,1 @@
-print(type((1, 2)) is tuple)
+print('hello')
