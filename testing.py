@@ -23,6 +23,6 @@ def test_sort_pair():
 #   C2b:  all paths, with loop run through and continue
 #   C2c:  all paths, with n ε N loop runs
 # C3:  conditions
-#   C3a:  each condition tested as one (atomic) with true and false
-#   C3b:  each condition tested with all combinations of its sub-conditions
-#   C3c:  each condition tested as one with true and false plus each sub-condition tested with true and false
+#   C3a:  each sub-condition tested with true and false
+#   C3b:  all combinations of sub-conditions tested
+#   C3c:  each condition tested as one with true and false

@@ -22,3 +22,7 @@ print(keys, vals)
 
 dict_from_list = {i: x for i, x in enumerate(['a', 'b', 'c'])}
 print(dict_from_list)
+
+# sum_of_i_for_devidable_with_3 = sum(
+#     [x for i, x in enumerate([-2, 8, 5, 9, 7, 7, 1]) if i % 3 == 0 and i > 0])
+# print(sum_of_i_for_devidable_with_3)
