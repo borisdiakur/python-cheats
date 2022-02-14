@@ -1,6 +1,3 @@
-import ipytest
-
-
 def sort_pair(a, b):
     if a <= b:
         result = a, b  # error
@@ -18,9 +15,6 @@ def test_sort_pair():
 
     a, b = sort_pair(1, 1)
     assert a == 1 and b == 1
-
-
-ipytest.run()
 
 # C0:  statements
 # C1:  branches
